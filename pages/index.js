@@ -47,7 +47,8 @@ export default function Home() {
             }}>
 
               <Input 
-                name="nomeDoUsuario" onChange={(e) => setName(e.target.value)}
+                name="nomeDoUsuario" 
+                onChange={(e) => setName(e.target.value)}
                 placeholder="Qual o seu nome?"
                 value={name} 
               />
