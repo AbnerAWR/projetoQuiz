@@ -1,18 +1,17 @@
 {
-    "bg": "https://www.zelda.com.br/material/wallpapers-smash-bros-wii-u-link-castle-1280x800.jpg",
+    "bg": "https://static.zerochan.net/Jinx.%28League.of.Legends%29.full.1603010.jpg",
     "title": "Projeto Quiz",
     "description": "Começando Projeto Quiz",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/l4Ho9SUtchnKtOx32/giphy.gif",
-        "title": "Qual foi o primeiro vídeo do canal?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://i.pinimg.com/originals/e2/34/ba/e234ba37197bf4b1f6cda7cbbb6a73b6.gif",
+        "title": "Qual dessas falas são de Darius?",
+        "description": "Essa você sabe",
+        "answer": 1,
         "alternatives": [
-          "Flappy Bird",
-          "NextJS com SEO",
-          "Konami Code",
-          "Como fazer animação no Scroll"
+          "Derramo sangue por onde eu passo",
+          "Testemunhem a verdadeira força",
+          "Que comece o banho de sangue"
         ]
       },
       {
