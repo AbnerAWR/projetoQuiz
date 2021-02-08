@@ -36,7 +36,7 @@ function ResultWidget({ results }) {
                 {index + 1}
                 {' '}
                 Resultado:
-                {results === true
+                {result === true
                     ? 'Acertou'
                     : 'Errou'}
               </li>
@@ -110,8 +110,7 @@ function QuestionWidget({
                 addResult(isCorrect);
                 onSubmit();
                 setIsQuestionSubmited(false);
-                setSelectedAlternative(undefined);
-              }, 3 * 1000);
+              }, 1 * 1000);
             }}
           >
             {question.alternatives.map((alternative, alternativeIndex) => {
@@ -165,10 +164,10 @@ const screenStates = {
     const questionIndex = currentQuestion;
     const question = db.questions[questionIndex]
 
-    function addResult() {
+    function addResult(result) {
         setResults([
             ...results,
-            results,
+            result,
         ])
     }
 
