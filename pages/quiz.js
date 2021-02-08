@@ -10,7 +10,7 @@ function ResultWidget({ results }) {
     return (
       <Widget>
         <Widget.Header>
-          <h1>Tela de Resultado</h1>
+          Tela de Resultado:
         </Widget.Header>
         <Widget.Content>
           <p>
@@ -110,7 +110,7 @@ function QuestionWidget({
                 addResult(isCorrect);
                 onSubmit();
                 setIsQuestionSubmited(false);
-                
+                setSelectedAlternative(undefined)
               }, 1 * 1000);
             }}
           >
