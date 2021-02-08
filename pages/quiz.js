@@ -110,7 +110,7 @@ function QuestionWidget({
                 addResult(isCorrect);
                 onSubmit();
                 setIsQuestionSubmited(false);
-                setSelectedAlternative(undefined);
+                
               }, 1 * 1000);
             }}
           >
