@@ -1,7 +1,9 @@
 export default function QuizDaGalera() {
     return (
         <div>
-            desafio da galera
+            <h1>
+                teste
+            </h1>
         </div>
     )
 }
