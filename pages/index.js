@@ -55,7 +55,7 @@ export default function Home() {
               />
 
               <Button type="submit" disabled={name.length === 0}>
-                Jogar
+                Jogar {name}
               </Button>
 
             </form>
@@ -71,9 +71,10 @@ export default function Home() {
             <ul>
               {db.external.map((linkExterno) => {
                 const [projectName, githubUser] = linkExterno
+                  .replace(/\//g, '')
                   .replace('https:', '')
                   .replace('.vercel.app', '')
-                  
+                  .split('.');
 
                 return (
                   <li key={linkExterno}>
