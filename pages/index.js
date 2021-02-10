@@ -11,6 +11,7 @@ import QuizBackground from '../src/components/QuizBackground'
 import Head from 'next/head'
 import Button from '../src/components/Button'
 import Input from '../src/components/Input'
+import Link from '../src/components/Link'
 
 const QuizContainer = styled.div`
   width: 100%;
@@ -37,7 +38,7 @@ export default function Home() {
        
         <Widget>
             <Widget.Header>
-              <h1>The legend of Zelda</h1>
+              <h1>League of Legends Quiz</h1>
             </Widget.Header>
 
           <Widget.Content>
@@ -54,7 +55,7 @@ export default function Home() {
               />
 
               <Button type="submit" disabled={name.length === 0}>
-                Jogar {name}
+                Jogar
               </Button>
 
             </form>
@@ -64,13 +65,29 @@ export default function Home() {
 
         <Widget>
           
-          <Widget.Content>
-            <h1>Quiz da galera</h1>
+        <Widget.Content>
+            <h1>Quizes da Galera</h1>
 
-          {db.external.map(() => (
-            
-          ))}
-            
+            <ul>
+              {db.external.map((linkExterno) => {
+                const [projectName, githubUser] = linkExterno
+                  .replace(/\//g, '')
+                  .replace('https:', '')
+                  .replace('.vercel.app', '')
+                  .split('.');
+
+                return (
+                  <li key={linkExterno}>
+                    <Widget.Topic
+                      as={Link}
+                      href={`/quiz/${projectName}___${githubUser}`}
+                    >
+                      {`${githubUser}/${projectName}`}
+                    </Widget.Topic>
+                  </li>
+                );
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
         <Footer />
