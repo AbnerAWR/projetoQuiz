@@ -15,42 +15,45 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/4uVyQiFGLicuI/giphy.gif",
-        "title": "É verdade que o canal tem mensagens subliminares com o logo da alura aparecendo?",
-        "description": "Será :O",
-        "answer": 0,
+        "image": "https://i.makeagif.com/media/1-25-2018/ygY3X-.gif",
+        "title": "Shyvana é uma criatura magica meio-dragão que resite em qual região?",
+        "description": "Eai?",
+        "answer": 2,
         "alternatives": [
-           "Sim",
-           "Não"
+           "Targin",
+           "Ionia",
+           "Demacia",
+           "Noxus"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/4uVyQiFGLicuI/giphy.gif",
-        "title": "Quantos inscritos o canal terminou o ano de 2020?",
-        "description": "Faz tempo em haha",
-        "answer": 1,
+        "image": "https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/ionia-01.jpg",
+        "title": "Qual desses campeões foi o primeiro a utilizar energia como recuso para habilidades?",
+        "description": "Só pra main essa",
+        "answer": 3,
         "alternatives": [
-           "10k",
-           "15k",
-           "20k"
+           "Kennen",
+           "Zed",
+           "Akali",
+           "Shen"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/4uVyQiFGLicuI/giphy.gif",
-        "title": "Qual a frase que eu sempre falo nos vídeos relacionado a NextJS?",
+        "image": "https://i.pinimg.com/originals/31/df/1b/31df1b8bfb625aa6c82a1022eefd2822.gif",
+        "title": "Jinx é natural de qual região?",
         "description": "Faz tempo em haha",
         "answer": 0,
         "alternatives": [
-           "NextJS é ruim",
-           "Vamos ser o maior canal falando de NextJS no Brasil!",
-           "NextJS é a melhor solução para qualquer projeto"
+           "Zaun",
+           "Piltover",
+           "Ixtal"
         ]
       }
     ],
     "external": [
-      "https://aluraquiz-base.alura-challenges.vercel.app/",
-      "https://aluraquiz-css.omariosouto.vercel.app/",
-      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+      "https://aluraquiz-harrypotter.karinarovani.vercel.app",
+      "https://quiz-cavaleiro-zodiaco.vercel.app",
+      "https://aluraquiz-darthquiz.vercel.app"
     ],
     "theme": {
       "colors": {
