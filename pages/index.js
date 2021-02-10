@@ -55,7 +55,7 @@ export default function Home() {
               />
 
               <Button type="submit" disabled={name.length === 0}>
-                Jogar {name}
+                Jogar
               </Button>
 
             </form>
